@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>矿井通风解算系统使用说明</title>
+  <link rel="stylesheet" href="../assets/css/main.css" />
+ 
+  <script>
+  window.$ = window.jQuery = require('../assets/extends/js/jquery-3.2.1.min.js');
+  </script>
+  <script src="./index.js"></script>
+
+
+</head>
+
+<body>
+  <div class="main">
+    <div class="left">
+      <ul class="menu" id="menu" style="left: 0;">
+          <li class="li_menu" style="margin-top: 0px;" myhref="../src/page/welcome.html">
+            <a href="#">欢迎使用</a>
+          </li>
+        <li class="li_menu" style="margin-top: 0px;" myhref="../src/page/install.html">
+          <a href="#">安装程序</a>
+        </li>
+        <li class="li_menu" style="margin-top: 0px;" myhref="../src/page/uiintroduce.html">
+          <a href="#">界面简述</a>
+        </li>
+        <li class="li_menu" style="margin-top: 0px;" myhref="../src/page/getstart.html">
+          <a href="#">开始使用</a>
+        </li>
+        <li class="li_menu_1" myhref="../src/page/newproject.html">
+          <a href="#">新建工程</a>
+        </li>
+        <li class="li_menu" style="margin-top: 20px;" myhref="../src/page/draw.html">
+          <a href="#">绘制图形</a>
+        </li>
+        <li class="li_menu_1" myhref="../src/page/draw.html">
+          <a href="#import">从CAD文件导入</a>
+        </li>
+        <li class="li_menu_1" myhref="../src/page/drawbyhand.html">
+          <a href="#">手动绘制</a>
+        </li>
+        <li class="li_menu" style="margin-top: 20px;" myhref="../src/page/solve.html">
+          <a href="#">网络解算</a>
+        </li>
+        <li class="li_menu_1" myhref="../src/page/solve.html">
+          <a href="#">解算</a>
+        </li>
+        <li class="li_menu_1" myhref="../src/page/deviation.html">
+          <a href="#">误差分析</a>
+        </li>
+        <li class="li_menu" style="margin-top: 20px;" myhref="../src/page/stereoscopicgraph.html">
+          <a href="#">其他图形</a>
+        </li>
+        <li class="li_menu_1" myhref="../src/page/stereoscopicgraph.html">
+          <a href="#">立体图</a>
+        </li>
+        <li class="li_menu_1" myhref="../src/page/netgraph.html">
+          <a href="#">网络图</a>
+        </li>
+        <li class="li_menu_1" myhref="../src/page/threedgraph.html">
+          <a href="#">三维图</a>
+        </li>
+        <li class="li_menu" style="margin-top: 20px;" myhref="../src/page/topology.html">
+          <a href="#">拓扑查询</a>
+        </li>
+        <li class="li_menu_1" myhref="../src/page/topology.html">
+          <a href="#">进回风井统计</a>
+        </li>
+        <li class="li_menu_1" myhref="../src/page/connectivity.html">
+          <a href="#">连通性检测</a>
+        </li>
+      </ul>
+    </div>
+    <div class="right">
+      <div id="iframe">
+      
+        <object id="rightpage" data="../src/page/install.html" width="1000" height="800" type="text/html">
+          Alternative Content
+        </object>
+      </div>
+    </div>
+  </div>
+  <div id="back">
+    <a href="#top" class="a_button">顶部</a>
+  </div>
+</body>
+
+</html>
